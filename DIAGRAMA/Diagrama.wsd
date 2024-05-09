@@ -1,10 +1,10 @@
 @startuml
 
-object Mimimarket
-Mimimarket : name  : La_Ecónomica
-Mimimarket : Int   : id
-Mimimarket : Int   : Nit
-Mimimarket : String: Resolución 
+object Minimarket
+Minimarket : name  : La_Ecónomica
+Minimarket : Int   : id
+Minimarket : Int   : Nit
+Minimarket : String: Resolución 
 
 
 
@@ -19,7 +19,7 @@ Proveedores : float  : Precio_Unitario
 Proveedores : Int    : Unidades
 Proveedores : Int    : Total
 
-
+Minimarket--* Proveedores
 
 @enduml
 
