@@ -19,7 +19,7 @@ Proveedores : float  : Precio_Unitario
 Proveedores : Int    : Unidades
 Proveedores : Int    : Total
 
-Minimarket--* Proveedores
+Minimarket "1"--"*" Proveedores
 
 @enduml
 
