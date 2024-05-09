@@ -1,10 +1,10 @@
 @startuml
 
 object Minimarket
-Minimarket : name  : La_Ecónomica
-Minimarket : Int   : id
-Minimarket : Int   : Nit
-Minimarket : String: Resolución 
+Minimarket : String : La_Ecónomica
+Minimarket : Int    : id
+Minimarket : Int    : Nit
+Minimarket : String : Resolución 
 
 
 
