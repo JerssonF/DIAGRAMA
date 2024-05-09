@@ -1,0 +1,26 @@
+@startuml
+
+object Mimimarket
+Mimimarket : name  : La_Ecónomica
+Mimimarket : Int   : id
+Mimimarket : Int   : Nit
+Mimimarket : String: Resolución 
+
+
+
+object Proveedores
+Proveedores : name   : Nutresa
+Proveedores : Int    : id
+Proveedores : Int    : Nit
+Proveedores : String : Cliente
+Proveedores : String : Dirección
+Proveedores : String : Productos
+Proveedores : float  : Precio_Unitario
+Proveedores : Int    : Unidades
+Proveedores : Int    : Total
+
+
+
+@enduml
+
+
